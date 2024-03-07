@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VisitedPlaceCollectionViewCell" customModule="NavadChat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="249" height="194"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="249" height="194"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundCell" translatesAutoresizingMaskIntoConstraints="NO" id="5ES-OJ-Nup">
+                        <rect key="frame" x="8" y="8" width="233" height="178"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdj-cP-OBM">
+                        <rect key="frame" x="8" y="119.33333333333331" width="233" height="66.666666666666686"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puerto Rico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1G-aZ-Rq2">
+                                <rect key="frame" x="12" y="12.000000000000012" width="209" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="221 Namadas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3v-6M-AYQ">
+                                <rect key="frame" x="12" y="40.333333333333329" width="209" height="14.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="J3v-6M-AYQ" firstAttribute="trailing" secondItem="F1G-aZ-Rq2" secondAttribute="trailing" id="ADQ-UG-RVS"/>
+                            <constraint firstItem="J3v-6M-AYQ" firstAttribute="top" secondItem="F1G-aZ-Rq2" secondAttribute="bottom" constant="8" id="WJL-4w-uHF"/>
+                            <constraint firstItem="J3v-6M-AYQ" firstAttribute="leading" secondItem="F1G-aZ-Rq2" secondAttribute="leading" id="fEK-Ve-MfE"/>
+                            <constraint firstItem="F1G-aZ-Rq2" firstAttribute="leading" secondItem="cdj-cP-OBM" secondAttribute="leading" constant="12" id="ged-7i-4Sa"/>
+                            <constraint firstItem="F1G-aZ-Rq2" firstAttribute="top" secondItem="cdj-cP-OBM" secondAttribute="top" constant="12" id="gzS-VF-dXR"/>
+                            <constraint firstAttribute="trailing" secondItem="F1G-aZ-Rq2" secondAttribute="trailing" constant="12" id="jcD-f0-psc"/>
+                            <constraint firstAttribute="bottom" secondItem="J3v-6M-AYQ" secondAttribute="bottom" constant="12" id="qxD-zB-Tgl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="5ES-OJ-Nup" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="00k-fD-ek3"/>
+                <constraint firstItem="5ES-OJ-Nup" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="0A5-kB-wMf"/>
+                <constraint firstItem="cdj-cP-OBM" firstAttribute="trailing" secondItem="5ES-OJ-Nup" secondAttribute="trailing" id="0Lh-zl-hUa"/>
+                <constraint firstAttribute="trailing" secondItem="5ES-OJ-Nup" secondAttribute="trailing" constant="8" id="CKO-E2-j8w"/>
+                <constraint firstAttribute="bottom" secondItem="5ES-OJ-Nup" secondAttribute="bottom" constant="8" id="XLh-Fp-GzI"/>
+                <constraint firstItem="cdj-cP-OBM" firstAttribute="leading" secondItem="5ES-OJ-Nup" secondAttribute="leading" id="sE4-Kt-Fgw"/>
+                <constraint firstItem="cdj-cP-OBM" firstAttribute="bottom" secondItem="5ES-OJ-Nup" secondAttribute="bottom" id="u1p-kb-G1m"/>
+            </constraints>
+            <size key="customSize" width="249" height="194"/>
+            <connections>
+                <outlet property="imgBackground" destination="5ES-OJ-Nup" id="E5I-pU-79A"/>
+                <outlet property="lblSubtitle" destination="J3v-6M-AYQ" id="0R3-9T-II0"/>
+                <outlet property="lblTitle" destination="F1G-aZ-Rq2" id="UKW-mU-VnF"/>
+            </connections>
+            <point key="canvasLocation" x="127.48091603053435" y="70.422535211267615"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="backgroundCell" width="1125" height="537"/>
+    </resources>
+</document>

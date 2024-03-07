@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="138" id="KGk-i7-Jjw" customClass="OtherTextMessageTableViewCell" customModule="NavadChat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="If2-H9-Gyn">
+                        <rect key="frame" x="20" y="8" width="280" height="122"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="otherChatBg" translatesAutoresizingMaskIntoConstraints="NO" id="8ce-0Y-MW8">
+                                <rect key="frame" x="8" y="8" width="220" height="83"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BcK-zm-G1y">
+                                <rect key="frame" x="8" y="8" width="220" height="83"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A fast 50mm like f1.8 would help with the bokeh. I’ve been using primes as they tend to get a bit sharper images." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdB-w1-GEi">
+                                        <rect key="frame" x="9" y="8" width="203" height="67"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="9wa-Qt-4HR"/>
+                                    <constraint firstItem="fdB-w1-GEi" firstAttribute="leading" secondItem="BcK-zm-G1y" secondAttribute="leading" constant="9" id="Gpj-5l-nUV"/>
+                                    <constraint firstAttribute="bottom" secondItem="fdB-w1-GEi" secondAttribute="bottom" constant="8" id="lB9-zT-eM2"/>
+                                    <constraint firstItem="fdB-w1-GEi" firstAttribute="top" secondItem="BcK-zm-G1y" secondAttribute="top" constant="8" id="zJJ-5A-M8Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="fdB-w1-GEi" secondAttribute="trailing" constant="8" id="zSW-hK-ah6"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01:30 AM" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSJ-do-9ro">
+                                <rect key="frame" x="8" y="99" width="220" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8ce-0Y-MW8" firstAttribute="bottom" secondItem="BcK-zm-G1y" secondAttribute="bottom" id="0fc-ux-5AJ"/>
+                            <constraint firstAttribute="bottom" secondItem="FSJ-do-9ro" secondAttribute="bottom" constant="8" id="7H2-ec-fJG"/>
+                            <constraint firstAttribute="trailing" secondItem="BcK-zm-G1y" secondAttribute="trailing" constant="52" id="BPp-fx-H5b"/>
+                            <constraint firstItem="FSJ-do-9ro" firstAttribute="trailing" secondItem="BcK-zm-G1y" secondAttribute="trailing" id="DJu-gf-4Xk"/>
+                            <constraint firstItem="FSJ-do-9ro" firstAttribute="leading" secondItem="BcK-zm-G1y" secondAttribute="leading" id="Dbk-SK-xM1"/>
+                            <constraint firstItem="8ce-0Y-MW8" firstAttribute="trailing" secondItem="BcK-zm-G1y" secondAttribute="trailing" id="ERT-Yj-dmY"/>
+                            <constraint firstItem="8ce-0Y-MW8" firstAttribute="leading" secondItem="BcK-zm-G1y" secondAttribute="leading" id="G1p-fn-XuX"/>
+                            <constraint firstItem="BcK-zm-G1y" firstAttribute="leading" secondItem="If2-H9-Gyn" secondAttribute="leading" constant="8" id="Yy3-bb-Uco"/>
+                            <constraint firstItem="8ce-0Y-MW8" firstAttribute="top" secondItem="BcK-zm-G1y" secondAttribute="top" id="hbc-G8-LEQ"/>
+                            <constraint firstItem="FSJ-do-9ro" firstAttribute="top" secondItem="BcK-zm-G1y" secondAttribute="bottom" constant="8" id="jUJ-4V-rrt"/>
+                            <constraint firstItem="BcK-zm-G1y" firstAttribute="top" secondItem="If2-H9-Gyn" secondAttribute="top" constant="8" id="mcT-3M-0dT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="If2-H9-Gyn" secondAttribute="bottom" constant="8" id="2LY-GF-wg5"/>
+                    <constraint firstAttribute="trailing" secondItem="If2-H9-Gyn" secondAttribute="trailing" constant="20" id="2aS-my-Vhv"/>
+                    <constraint firstItem="If2-H9-Gyn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Jjv-KC-j7s"/>
+                    <constraint firstItem="If2-H9-Gyn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="M0M-5s-T1a"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblMessage" destination="fdB-w1-GEi" id="vVf-8t-NZh"/>
+                <outlet property="lblTime" destination="FSJ-do-9ro" id="6k6-Sw-SHQ"/>
+            </connections>
+            <point key="canvasLocation" x="-24.427480916030532" y="52.816901408450704"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="otherChatBg" width="217.33332824707031" height="54"/>
+    </resources>
+</document>

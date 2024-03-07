@@ -3,10 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180BE7E429BCC6480022BAEC /* AverageSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BE7E329BCC6480022BAEC /* AverageSpeed.swift */; };
+		180BE7E629BCD8410022BAEC /* PricesAndOffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BE7E529BCD8410022BAEC /* PricesAndOffers.swift */; };
+		180BE7E829BCD8660022BAEC /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BE7E729BCD8660022BAEC /* Places.swift */; };
+		180BE7EB29BCF2B70022BAEC /* HotelsCollectionCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BE7EA29BCF2B70022BAEC /* HotelsCollectionCellCollectionViewCell.swift */; };
+		180BE7ED29BCF63D0022BAEC /* SpaceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BE7EC29BCF63D0022BAEC /* SpaceInfo.swift */; };
+		1814D1A429B9B025008C4601 /* GroupedHotelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1814D1A229B9B025008C4601 /* GroupedHotelsCell.swift */; };
+		1814D1A529B9B025008C4601 /* GroupedHotelsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1814D1A329B9B025008C4601 /* GroupedHotelsCell.xib */; };
+		1828EEFD29B38745004CC3AB /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1828EEFC29B38745004CC3AB /* Poppins-MediumItalic.ttf */; };
+		182D27D429BA514700037133 /* Internetspeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D27D329BA514700037133 /* Internetspeed.swift */; };
+		182F0B8D29B9DFDA00867F15 /* WhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F0B8C29B9DFDA00867F15 /* WhereView.swift */; };
+		182F0B8F29B9E11E00867F15 /* NewSpotVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F0B8E29B9E11E00867F15 /* NewSpotVc.swift */; };
+		182F686F29B48BFA00F1D6B1 /* PopularLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F686E29B48BFA00F1D6B1 /* PopularLocationCell.swift */; };
+		182F687229B48C2500F1D6B1 /* NewLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F687129B48C2500F1D6B1 /* NewLocationCell.swift */; };
 		183416A429AD38D30041D640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183416A329AD38D30041D640 /* AppDelegate.swift */; };
 		183416A629AD38D30041D640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183416A529AD38D30041D640 /* SceneDelegate.swift */; };
 		183416A829AD38D30041D640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183416A729AD38D30041D640 /* ViewController.swift */; };
@@ -17,6 +30,68 @@
 		183416BE29AD38D60041D640 /* NawadAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183416BD29AD38D60041D640 /* NawadAppTests.swift */; };
 		183416C829AD38D60041D640 /* NawadAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183416C729AD38D60041D640 /* NawadAppUITests.swift */; };
 		183416CA29AD38D60041D640 /* NawadAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183416C929AD38D60041D640 /* NawadAppUITestsLaunchTests.swift */; };
+		183416DA29AD3A6B0041D640 /* ForgotPasswordVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183416D929AD3A6B0041D640 /* ForgotPasswordVc.swift */; };
+		183416DC29AD3BC80041D640 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 183416DB29AD3BC80041D640 /* Poppins-Medium.ttf */; };
+		183416DE29AD493D0041D640 /* OTPVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183416DD29AD493D0041D640 /* OTPVc.swift */; };
+		18387F5229B9A0EE0010D38A /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18387F5029B9A0EE0010D38A /* ConversationCell.swift */; };
+		18387F5329B9A0EE0010D38A /* ConversationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18387F5129B9A0EE0010D38A /* ConversationCell.xib */; };
+		1854704F29B885E6007FBBD6 /* HotelPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854704D29B885E6007FBBD6 /* HotelPlaces.swift */; };
+		1854705029B885E6007FBBD6 /* HotelPlaces.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1854704E29B885E6007FBBD6 /* HotelPlaces.xib */; };
+		1854745B29B64D8800C6776E /* CostumTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854745A29B64D8800C6776E /* CostumTabBarController.swift */; };
+		185C8E3D29BA35A7008D41DA /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C8E3C29BA35A7008D41DA /* RankView.swift */; };
+		185C8E3F29BA3BC6008D41DA /* OutletsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C8E3E29BA3BC6008D41DA /* OutletsView.swift */; };
+		1863870929B9ED49003BDADD /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863870829B9ED49003BDADD /* DetailsView.swift */; };
+		1863870C29B9EE74003BDADD /* TagcollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863870B29B9EE74003BDADD /* TagcollectionCell.swift */; };
+		1863870F29BA0BD9003BDADD /* UploadCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863870E29BA0BD9003BDADD /* UploadCollectionCell.swift */; };
+		1863871129BA0C56003BDADD /* UploadPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863871029BA0C56003BDADD /* UploadPhotos.swift */; };
+		1863871329BA0DC9003BDADD /* dashlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863871229BA0DC9003BDADD /* dashlineView.swift */; };
+		18703A6029B5008800F27E0A /* StoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18703A5F29B5008800F27E0A /* StoriesCell.swift */; };
+		18703A6229B500F800F27E0A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18703A6129B500F800F27E0A /* HomeViewController.swift */; };
+		1871DAFD29B84C1000CD012E /* ButtenCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871DAFC29B84C1000CD012E /* ButtenCells.swift */; };
+		18798B2829AE4637003DF99D /* PasswordVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18798B2729AE4637003DF99D /* PasswordVc.swift */; };
+		18798B2A29AE4CF4003DF99D /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18798B2929AE4CF4003DF99D /* SignUpVc.swift */; };
+		187CB1D629B7C2A6005AAC90 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CB1D529B7C2A6005AAC90 /* WorkViewController.swift */; };
+		187CB1D829B7C636005AAC90 /* ListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CB1D729B7C636005AAC90 /* ListVc.swift */; };
+		187CB1DA29B7C647005AAC90 /* MapVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CB1D929B7C647005AAC90 /* MapVc.swift */; };
+		188E3A1B29C2EEF10099CC1B /* GroupChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A1929C2EEF00099CC1B /* GroupChatViewController.swift */; };
+		188E3A1C29C2EEF10099CC1B /* SingleChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A1A29C2EEF10099CC1B /* SingleChatViewController.swift */; };
+		188E3A2C29C2EF290099CC1B /* OtherTextMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A1E29C2EF290099CC1B /* OtherTextMessageTableViewCell.swift */; };
+		188E3A2D29C2EF290099CC1B /* OtherGroupTextMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A1F29C2EF290099CC1B /* OtherGroupTextMessageTableViewCell.swift */; };
+		188E3A2E29C2EF290099CC1B /* DayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A2129C2EF290099CC1B /* DayHeaderView.swift */; };
+		188E3A2F29C2EF290099CC1B /* DayHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A2229C2EF290099CC1B /* DayHeaderView.xib */; };
+		188E3A3029C2EF290099CC1B /* OtherTextMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A2329C2EF290099CC1B /* OtherTextMessageTableViewCell.xib */; };
+		188E3A3129C2EF290099CC1B /* MyTextMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A2429C2EF290099CC1B /* MyTextMessageTableViewCell.swift */; };
+		188E3A3229C2EF290099CC1B /* MyTextMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A2529C2EF290099CC1B /* MyTextMessageTableViewCell.xib */; };
+		188E3A3329C2EF290099CC1B /* OtherGroupTextMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A2629C2EF290099CC1B /* OtherGroupTextMessageTableViewCell.xib */; };
+		188E3A3429C2EF290099CC1B /* VisitedPlaceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A2829C2EF290099CC1B /* VisitedPlaceCollectionViewCell.xib */; };
+		188E3A3529C2EF290099CC1B /* VisitedPlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A2929C2EF290099CC1B /* VisitedPlaceCollectionViewCell.swift */; };
+		188E3A3629C2EF290099CC1B /* GroupMembersCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A2A29C2EF290099CC1B /* GroupMembersCollectionViewCell.xib */; };
+		188E3A3729C2EF290099CC1B /* GroupMembersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A2B29C2EF290099CC1B /* GroupMembersCollectionViewCell.swift */; };
+		188E3A3929C2EF650099CC1B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A3829C2EF650099CC1B /* Extension.swift */; };
+		188E3A3B29C2F0680099CC1B /* IntermediateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A3A29C2F0680099CC1B /* IntermediateViewController.swift */; };
+		188E4A5529AE62EB004FE862 /* LocalCounteriesVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E4A5429AE62EB004FE862 /* LocalCounteriesVc.swift */; };
+		18917F9929AE5BBF002F8C43 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18917F9829AE5BBF002F8C43 /* Poppins-SemiBold.ttf */; };
+		18917F9B29AE5C48002F8C43 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18917F9A29AE5C48002F8C43 /* Poppins-Regular.ttf */; };
+		18917F9D29AE5D48002F8C43 /* OnboardingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18917F9C29AE5D48002F8C43 /* OnboardingVc.swift */; };
+		18BB848529B9059C00978F3F /* PlaceCardVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB848429B9059C00978F3F /* PlaceCardVc.swift */; };
+		18BB848829B979D100978F3F /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB848729B979D100978F3F /* PeopleViewController.swift */; };
+		18BB848A29B979F900978F3F /* ConveresationsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB848929B979F900978F3F /* ConveresationsVc.swift */; };
+		18BB848C29B97A0F00978F3F /* GroupedVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB848B29B97A0F00978F3F /* GroupedVc.swift */; };
+		18C1A76C29BC70E9004613FA /* HotelsDetailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1A76B29BC70E9004613FA /* HotelsDetailsVc.swift */; };
+		18C1A76E29BC821D004613FA /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1A76D29BC821D004613FA /* PhoneNumberView.swift */; };
+		18C1A77029BC8272004613FA /* HotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1A76F29BC8272004613FA /* HotelView.swift */; };
+		18C1A77229BC8A9E004613FA /* WorkingHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1A77129BC8A9E004613FA /* WorkingHours.swift */; };
+		18D23A7329BB687F00F18900 /* SheetHotels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D23A7229BB687F00F18900 /* SheetHotels.storyboard */; };
+		18D23A7529BB68B700F18900 /* SheetHotelsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D23A7429BB68B700F18900 /* SheetHotelsVc.swift */; };
+		18D23A7829BB7A7200F18900 /* MapHotelPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D23A7729BB7A7200F18900 /* MapHotelPlaces.swift */; };
+		18DB289E29BB439200DAE0EC /* SettingCellTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB289C29BB439200DAE0EC /* SettingCellTableView.swift */; };
+		18DB289F29BB439200DAE0EC /* SettingCellTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DB289D29BB439200DAE0EC /* SettingCellTableView.xib */; };
+		18DB28A129BB485700DAE0EC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB28A029BB485700DAE0EC /* ProfileViewController.swift */; };
+		18DB28A629BB497A00DAE0EC /* VisitedPlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB28A529BB497A00DAE0EC /* VisitedPlacesCell.swift */; };
+		18E14FD629C39FDE0087012E /* ViewPagerCostumview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E14FD529C39FDE0087012E /* ViewPagerCostumview.swift */; };
+		41266CE46C320C23C70EBC90 /* Pods_NawadApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79ED6A8B2B7AEA7E1EDC43E2 /* Pods_NawadApp.framework */; };
+		686888F6E1CE3F3A124B6DE9 /* Pods_NawadAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FDE00207C18F8A287A8187 /* Pods_NawadAppTests.framework */; };
+		7CF21C53832D893817C3DE87 /* Pods_NawadApp_NawadAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3A0D967732738326405CF2 /* Pods_NawadApp_NawadAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +112,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0198BF60DD3B4D13D6E64271 /* Pods-NawadApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawadApp.debug.xcconfig"; path = "Target Support Files/Pods-NawadApp/Pods-NawadApp.debug.xcconfig"; sourceTree = "<group>"; };
+		12B77DA4EF9CFDBD03BEB3D0 /* Pods-NawadAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawadAppTests.release.xcconfig"; path = "Target Support Files/Pods-NawadAppTests/Pods-NawadAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		180BE7E329BCC6480022BAEC /* AverageSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageSpeed.swift; sourceTree = "<group>"; };
+		180BE7E529BCD8410022BAEC /* PricesAndOffers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesAndOffers.swift; sourceTree = "<group>"; };
+		180BE7E729BCD8660022BAEC /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		180BE7EA29BCF2B70022BAEC /* HotelsCollectionCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsCollectionCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		180BE7EC29BCF63D0022BAEC /* SpaceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceInfo.swift; sourceTree = "<group>"; };
+		1814D1A229B9B025008C4601 /* GroupedHotelsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedHotelsCell.swift; sourceTree = "<group>"; };
+		1814D1A329B9B025008C4601 /* GroupedHotelsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupedHotelsCell.xib; sourceTree = "<group>"; };
+		1828EEFC29B38745004CC3AB /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		182D27D329BA514700037133 /* Internetspeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internetspeed.swift; sourceTree = "<group>"; };
+		182F0B8C29B9DFDA00867F15 /* WhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereView.swift; sourceTree = "<group>"; };
+		182F0B8E29B9E11E00867F15 /* NewSpotVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSpotVc.swift; sourceTree = "<group>"; };
+		182F686E29B48BFA00F1D6B1 /* PopularLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularLocationCell.swift; sourceTree = "<group>"; };
+		182F687129B48C2500F1D6B1 /* NewLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLocationCell.swift; sourceTree = "<group>"; };
 		183416A029AD38D30041D640 /* NawadApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NawadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183416A329AD38D30041D640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		183416A529AD38D30041D640 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +141,72 @@
 		183416C329AD38D60041D640 /* NawadAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NawadAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183416C729AD38D60041D640 /* NawadAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NawadAppUITests.swift; sourceTree = "<group>"; };
 		183416C929AD38D60041D640 /* NawadAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NawadAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		183416D929AD3A6B0041D640 /* ForgotPasswordVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVc.swift; sourceTree = "<group>"; };
+		183416DB29AD3BC80041D640 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		183416DD29AD493D0041D640 /* OTPVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVc.swift; sourceTree = "<group>"; };
+		18387F5029B9A0EE0010D38A /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		18387F5129B9A0EE0010D38A /* ConversationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationCell.xib; sourceTree = "<group>"; };
+		1854704D29B885E6007FBBD6 /* HotelPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelPlaces.swift; sourceTree = "<group>"; };
+		1854704E29B885E6007FBBD6 /* HotelPlaces.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelPlaces.xib; sourceTree = "<group>"; };
+		1854745A29B64D8800C6776E /* CostumTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumTabBarController.swift; sourceTree = "<group>"; };
+		185C8E3C29BA35A7008D41DA /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
+		185C8E3E29BA3BC6008D41DA /* OutletsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletsView.swift; sourceTree = "<group>"; };
+		1863870829B9ED49003BDADD /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		1863870B29B9EE74003BDADD /* TagcollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagcollectionCell.swift; sourceTree = "<group>"; };
+		1863870E29BA0BD9003BDADD /* UploadCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCollectionCell.swift; sourceTree = "<group>"; };
+		1863871029BA0C56003BDADD /* UploadPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotos.swift; sourceTree = "<group>"; };
+		1863871229BA0DC9003BDADD /* dashlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashlineView.swift; sourceTree = "<group>"; };
+		18703A5F29B5008800F27E0A /* StoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCell.swift; sourceTree = "<group>"; };
+		18703A6129B500F800F27E0A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1871DAFC29B84C1000CD012E /* ButtenCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtenCells.swift; sourceTree = "<group>"; };
+		18798B2729AE4637003DF99D /* PasswordVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVc.swift; sourceTree = "<group>"; };
+		18798B2929AE4CF4003DF99D /* SignUpVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
+		187CB1D529B7C2A6005AAC90 /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		187CB1D729B7C636005AAC90 /* ListVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVc.swift; sourceTree = "<group>"; };
+		187CB1D929B7C647005AAC90 /* MapVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVc.swift; sourceTree = "<group>"; };
+		188E3A1929C2EEF00099CC1B /* GroupChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChatViewController.swift; sourceTree = "<group>"; };
+		188E3A1A29C2EEF10099CC1B /* SingleChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleChatViewController.swift; sourceTree = "<group>"; };
+		188E3A1E29C2EF290099CC1B /* OtherTextMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherTextMessageTableViewCell.swift; sourceTree = "<group>"; };
+		188E3A1F29C2EF290099CC1B /* OtherGroupTextMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherGroupTextMessageTableViewCell.swift; sourceTree = "<group>"; };
+		188E3A2129C2EF290099CC1B /* DayHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayHeaderView.swift; sourceTree = "<group>"; };
+		188E3A2229C2EF290099CC1B /* DayHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayHeaderView.xib; sourceTree = "<group>"; };
+		188E3A2329C2EF290099CC1B /* OtherTextMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherTextMessageTableViewCell.xib; sourceTree = "<group>"; };
+		188E3A2429C2EF290099CC1B /* MyTextMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextMessageTableViewCell.swift; sourceTree = "<group>"; };
+		188E3A2529C2EF290099CC1B /* MyTextMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTextMessageTableViewCell.xib; sourceTree = "<group>"; };
+		188E3A2629C2EF290099CC1B /* OtherGroupTextMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherGroupTextMessageTableViewCell.xib; sourceTree = "<group>"; };
+		188E3A2829C2EF290099CC1B /* VisitedPlaceCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitedPlaceCollectionViewCell.xib; sourceTree = "<group>"; };
+		188E3A2929C2EF290099CC1B /* VisitedPlaceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitedPlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		188E3A2A29C2EF290099CC1B /* GroupMembersCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupMembersCollectionViewCell.xib; sourceTree = "<group>"; };
+		188E3A2B29C2EF290099CC1B /* GroupMembersCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMembersCollectionViewCell.swift; sourceTree = "<group>"; };
+		188E3A3829C2EF650099CC1B /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		188E3A3A29C2F0680099CC1B /* IntermediateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntermediateViewController.swift; sourceTree = "<group>"; };
+		188E4A5429AE62EB004FE862 /* LocalCounteriesVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCounteriesVc.swift; sourceTree = "<group>"; };
+		18917F9829AE5BBF002F8C43 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		18917F9A29AE5C48002F8C43 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		18917F9C29AE5D48002F8C43 /* OnboardingVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVc.swift; sourceTree = "<group>"; };
+		18BB848429B9059C00978F3F /* PlaceCardVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCardVc.swift; sourceTree = "<group>"; };
+		18BB848729B979D100978F3F /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		18BB848929B979F900978F3F /* ConveresationsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveresationsVc.swift; sourceTree = "<group>"; };
+		18BB848B29B97A0F00978F3F /* GroupedVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedVc.swift; sourceTree = "<group>"; };
+		18C1A76B29BC70E9004613FA /* HotelsDetailsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsDetailsVc.swift; sourceTree = "<group>"; };
+		18C1A76D29BC821D004613FA /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
+		18C1A76F29BC8272004613FA /* HotelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelView.swift; sourceTree = "<group>"; };
+		18C1A77129BC8A9E004613FA /* WorkingHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingHours.swift; sourceTree = "<group>"; };
+		18D23A7229BB687F00F18900 /* SheetHotels.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SheetHotels.storyboard; sourceTree = "<group>"; };
+		18D23A7429BB68B700F18900 /* SheetHotelsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetHotelsVc.swift; sourceTree = "<group>"; };
+		18D23A7729BB7A7200F18900 /* MapHotelPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapHotelPlaces.swift; sourceTree = "<group>"; };
+		18DB289C29BB439200DAE0EC /* SettingCellTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellTableView.swift; sourceTree = "<group>"; };
+		18DB289D29BB439200DAE0EC /* SettingCellTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCellTableView.xib; sourceTree = "<group>"; };
+		18DB28A029BB485700DAE0EC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		18DB28A529BB497A00DAE0EC /* VisitedPlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedPlacesCell.swift; sourceTree = "<group>"; };
+		18E14FD529C39FDE0087012E /* ViewPagerCostumview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPagerCostumview.swift; sourceTree = "<group>"; };
+		47895FF3508FC1F44BC8EC2F /* Pods-NawadApp-NawadAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawadApp-NawadAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NawadApp-NawadAppUITests/Pods-NawadApp-NawadAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79ED6A8B2B7AEA7E1EDC43E2 /* Pods_NawadApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NawadApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F37EA2143F5C163D68AF0E /* Pods-NawadApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawadApp.release.xcconfig"; path = "Target Support Files/Pods-NawadApp/Pods-NawadApp.release.xcconfig"; sourceTree = "<group>"; };
+		9C3A0D967732738326405CF2 /* Pods_NawadApp_NawadAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NawadApp_NawadAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B589F140436F132ACFB0B1FE /* Pods-NawadAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawadAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NawadAppTests/Pods-NawadAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8FDE00207C18F8A287A8187 /* Pods_NawadAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NawadAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE00DC28EC544F7B97524D9A /* Pods-NawadApp-NawadAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NawadApp-NawadAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NawadApp-NawadAppUITests/Pods-NawadApp-NawadAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +214,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41266CE46C320C23C70EBC90 /* Pods_NawadApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686888F6E1CE3F3A124B6DE9 /* Pods_NawadAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +230,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF21C53832D893817C3DE87 /* Pods_NawadApp_NawadAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180BE7E929BCF2790022BAEC /* HotelsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				180BE7EA29BCF2B70022BAEC /* HotelsCollectionCellCollectionViewCell.swift */,
+			);
+			name = HotelsCollection;
+			sourceTree = "<group>";
+		};
+		1814D1A129B9AFF7008C4601 /* GroupedHotelsCell */ = {
+			isa = PBXGroup;
+			children = (
+				1814D1A229B9B025008C4601 /* GroupedHotelsCell.swift */,
+				1814D1A329B9B025008C4601 /* GroupedHotelsCell.xib */,
+			);
+			name = GroupedHotelsCell;
+			sourceTree = "<group>";
+		};
+		182F0B8B29B9DFB900867F15 /* CostumViews */ = {
+			isa = PBXGroup;
+			children = (
+				182F0B8C29B9DFDA00867F15 /* WhereView.swift */,
+				1863870829B9ED49003BDADD /* DetailsView.swift */,
+				1863871029BA0C56003BDADD /* UploadPhotos.swift */,
+				1863871229BA0DC9003BDADD /* dashlineView.swift */,
+				185C8E3C29BA35A7008D41DA /* RankView.swift */,
+				185C8E3E29BA3BC6008D41DA /* OutletsView.swift */,
+				182D27D329BA514700037133 /* Internetspeed.swift */,
+				18C1A76D29BC821D004613FA /* PhoneNumberView.swift */,
+				18C1A76F29BC8272004613FA /* HotelView.swift */,
+				18C1A77129BC8A9E004613FA /* WorkingHours.swift */,
+				180BE7E329BCC6480022BAEC /* AverageSpeed.swift */,
+				180BE7E529BCD8410022BAEC /* PricesAndOffers.swift */,
+				180BE7E729BCD8660022BAEC /* Places.swift */,
+				180BE7EC29BCF63D0022BAEC /* SpaceInfo.swift */,
+				18E14FD529C39FDE0087012E /* ViewPagerCostumview.swift */,
+			);
+			name = CostumViews;
+			sourceTree = "<group>";
+		};
+		182F686C29B48BAB00F1D6B1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				188E3A2729C2EF290099CC1B /* CollectionView */,
+				188E3A1D29C2EF290099CC1B /* TableView */,
+				180BE7E929BCF2790022BAEC /* HotelsCollection */,
+				18D23A7629BB7A3500F18900 /* MapHotelsPlaces */,
+				18DB28A229BB491F00DAE0EC /* VisitedPlacesCollectionView */,
+				18DB289B29BB433900DAE0EC /* SettingCellTableView */,
+				1863870D29BA0BB8003BDADD /* UploadCollectionCell */,
+				1863870A29B9EE4F003BDADD /* TagCollectionCell */,
+				1814D1A129B9AFF7008C4601 /* GroupedHotelsCell */,
+				18BB848D29B9800400978F3F /* ConversationsCell */,
+				1854704C29B885BF007FBBD6 /* HotelPlaces */,
+				1871DAFB29B84BC700CD012E /* ButtenCell */,
+				18703A5E29B5006200F27E0A /* Stories */,
+				182F687029B48C0900F1D6B1 /* NewLocationCell */,
+				182F686D29B48BC300F1D6B1 /* PopularLocationCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		182F686D29B48BC300F1D6B1 /* PopularLocationCell */ = {
+			isa = PBXGroup;
+			children = (
+				182F686E29B48BFA00F1D6B1 /* PopularLocationCell.swift */,
+			);
+			name = PopularLocationCell;
+			sourceTree = "<group>";
+		};
+		182F687029B48C0900F1D6B1 /* NewLocationCell */ = {
+			isa = PBXGroup;
+			children = (
+				182F687129B48C2500F1D6B1 /* NewLocationCell.swift */,
+			);
+			path = NewLocationCell;
+			sourceTree = "<group>";
+		};
 		1834169729AD38D30041D640 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +321,8 @@
 				183416BC29AD38D60041D640 /* NawadAppTests */,
 				183416C629AD38D60041D640 /* NawadAppUITests */,
 				183416A129AD38D30041D640 /* Products */,
+				EB8EF0DBE78B3F07F17FE239 /* Pods */,
+				E99FECBEE46ED33B375F3AA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +339,17 @@
 		183416A229AD38D30041D640 /* NawadApp */ = {
 			isa = PBXGroup;
 			children = (
+				183416DB29AD3BC80041D640 /* Poppins-Medium.ttf */,
+				18917F9829AE5BBF002F8C43 /* Poppins-SemiBold.ttf */,
+				1828EEFC29B38745004CC3AB /* Poppins-MediumItalic.ttf */,
+				18917F9A29AE5C48002F8C43 /* Poppins-Regular.ttf */,
+				18D23A7129BB685000F18900 /* StoryBoards */,
+				183416D829AD3A1F0041D640 /* Views */,
+				183416D729AD3A150041D640 /* Model */,
+				183416D629AD38E70041D640 /* Controller */,
 				183416A329AD38D30041D640 /* AppDelegate.swift */,
 				183416A529AD38D30041D640 /* SceneDelegate.swift */,
-				183416A729AD38D30041D640 /* ViewController.swift */,
-				183416A929AD38D30041D640 /* Main.storyboard */,
 				183416AF29AD38D50041D640 /* Assets.xcassets */,
-				183416B129AD38D50041D640 /* LaunchScreen.storyboard */,
 				183416B429AD38D50041D640 /* Info.plist */,
 				183416AC29AD38D30041D640 /* NawadApp.xcdatamodeld */,
 			);
@@ -130,6 +373,195 @@
 			path = NawadAppUITests;
 			sourceTree = "<group>";
 		};
+		183416D629AD38E70041D640 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				188E3A3A29C2F0680099CC1B /* IntermediateViewController.swift */,
+				188E3A1929C2EEF00099CC1B /* GroupChatViewController.swift */,
+				188E3A1A29C2EEF10099CC1B /* SingleChatViewController.swift */,
+				183416A729AD38D30041D640 /* ViewController.swift */,
+				183416D929AD3A6B0041D640 /* ForgotPasswordVc.swift */,
+				183416DD29AD493D0041D640 /* OTPVc.swift */,
+				18798B2729AE4637003DF99D /* PasswordVc.swift */,
+				18798B2929AE4CF4003DF99D /* SignUpVc.swift */,
+				18917F9C29AE5D48002F8C43 /* OnboardingVc.swift */,
+				188E4A5429AE62EB004FE862 /* LocalCounteriesVc.swift */,
+				18703A6129B500F800F27E0A /* HomeViewController.swift */,
+				1854745A29B64D8800C6776E /* CostumTabBarController.swift */,
+				187CB1D529B7C2A6005AAC90 /* WorkViewController.swift */,
+				187CB1D729B7C636005AAC90 /* ListVc.swift */,
+				187CB1D929B7C647005AAC90 /* MapVc.swift */,
+				18BB848429B9059C00978F3F /* PlaceCardVc.swift */,
+				18BB848729B979D100978F3F /* PeopleViewController.swift */,
+				18BB848929B979F900978F3F /* ConveresationsVc.swift */,
+				18BB848B29B97A0F00978F3F /* GroupedVc.swift */,
+				182F0B8E29B9E11E00867F15 /* NewSpotVc.swift */,
+				18DB28A029BB485700DAE0EC /* ProfileViewController.swift */,
+				18D23A7429BB68B700F18900 /* SheetHotelsVc.swift */,
+				18C1A76B29BC70E9004613FA /* HotelsDetailsVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		183416D729AD3A150041D640 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		183416D829AD3A1F0041D640 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				188E3A3829C2EF650099CC1B /* Extension.swift */,
+				182F0B8B29B9DFB900867F15 /* CostumViews */,
+				182F686C29B48BAB00F1D6B1 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1854704C29B885BF007FBBD6 /* HotelPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				1854704D29B885E6007FBBD6 /* HotelPlaces.swift */,
+				1854704E29B885E6007FBBD6 /* HotelPlaces.xib */,
+			);
+			name = HotelPlaces;
+			sourceTree = "<group>";
+		};
+		1863870A29B9EE4F003BDADD /* TagCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				1863870B29B9EE74003BDADD /* TagcollectionCell.swift */,
+			);
+			path = TagCollectionCell;
+			sourceTree = "<group>";
+		};
+		1863870D29BA0BB8003BDADD /* UploadCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				1863870E29BA0BD9003BDADD /* UploadCollectionCell.swift */,
+			);
+			name = UploadCollectionCell;
+			sourceTree = "<group>";
+		};
+		18703A5E29B5006200F27E0A /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				18703A5F29B5008800F27E0A /* StoriesCell.swift */,
+			);
+			name = Stories;
+			sourceTree = "<group>";
+		};
+		1871DAFB29B84BC700CD012E /* ButtenCell */ = {
+			isa = PBXGroup;
+			children = (
+				1871DAFC29B84C1000CD012E /* ButtenCells.swift */,
+			);
+			path = ButtenCell;
+			sourceTree = "<group>";
+		};
+		188E3A1D29C2EF290099CC1B /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				188E3A1E29C2EF290099CC1B /* OtherTextMessageTableViewCell.swift */,
+				188E3A1F29C2EF290099CC1B /* OtherGroupTextMessageTableViewCell.swift */,
+				188E3A2029C2EF290099CC1B /* HeaderView */,
+				188E3A2329C2EF290099CC1B /* OtherTextMessageTableViewCell.xib */,
+				188E3A2429C2EF290099CC1B /* MyTextMessageTableViewCell.swift */,
+				188E3A2529C2EF290099CC1B /* MyTextMessageTableViewCell.xib */,
+				188E3A2629C2EF290099CC1B /* OtherGroupTextMessageTableViewCell.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		188E3A2029C2EF290099CC1B /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				188E3A2129C2EF290099CC1B /* DayHeaderView.swift */,
+				188E3A2229C2EF290099CC1B /* DayHeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		188E3A2729C2EF290099CC1B /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				188E3A2829C2EF290099CC1B /* VisitedPlaceCollectionViewCell.xib */,
+				188E3A2929C2EF290099CC1B /* VisitedPlaceCollectionViewCell.swift */,
+				188E3A2A29C2EF290099CC1B /* GroupMembersCollectionViewCell.xib */,
+				188E3A2B29C2EF290099CC1B /* GroupMembersCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		18BB848D29B9800400978F3F /* ConversationsCell */ = {
+			isa = PBXGroup;
+			children = (
+				18387F5029B9A0EE0010D38A /* ConversationCell.swift */,
+				18387F5129B9A0EE0010D38A /* ConversationCell.xib */,
+			);
+			path = ConversationsCell;
+			sourceTree = "<group>";
+		};
+		18D23A7129BB685000F18900 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				183416B129AD38D50041D640 /* LaunchScreen.storyboard */,
+				183416A929AD38D30041D640 /* Main.storyboard */,
+				18D23A7229BB687F00F18900 /* SheetHotels.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		18D23A7629BB7A3500F18900 /* MapHotelsPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				18D23A7729BB7A7200F18900 /* MapHotelPlaces.swift */,
+			);
+			path = MapHotelsPlaces;
+			sourceTree = "<group>";
+		};
+		18DB289B29BB433900DAE0EC /* SettingCellTableView */ = {
+			isa = PBXGroup;
+			children = (
+				18DB289C29BB439200DAE0EC /* SettingCellTableView.swift */,
+				18DB289D29BB439200DAE0EC /* SettingCellTableView.xib */,
+			);
+			path = SettingCellTableView;
+			sourceTree = "<group>";
+		};
+		18DB28A229BB491F00DAE0EC /* VisitedPlacesCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				18DB28A529BB497A00DAE0EC /* VisitedPlacesCell.swift */,
+			);
+			name = VisitedPlacesCollectionView;
+			sourceTree = "<group>";
+		};
+		E99FECBEE46ED33B375F3AA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79ED6A8B2B7AEA7E1EDC43E2 /* Pods_NawadApp.framework */,
+				9C3A0D967732738326405CF2 /* Pods_NawadApp_NawadAppUITests.framework */,
+				D8FDE00207C18F8A287A8187 /* Pods_NawadAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB8EF0DBE78B3F07F17FE239 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0198BF60DD3B4D13D6E64271 /* Pods-NawadApp.debug.xcconfig */,
+				86F37EA2143F5C163D68AF0E /* Pods-NawadApp.release.xcconfig */,
+				47895FF3508FC1F44BC8EC2F /* Pods-NawadApp-NawadAppUITests.debug.xcconfig */,
+				EE00DC28EC544F7B97524D9A /* Pods-NawadApp-NawadAppUITests.release.xcconfig */,
+				B589F140436F132ACFB0B1FE /* Pods-NawadAppTests.debug.xcconfig */,
+				12B77DA4EF9CFDBD03BEB3D0 /* Pods-NawadAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +569,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183416CD29AD38D60041D640 /* Build configuration list for PBXNativeTarget "NawadApp" */;
 			buildPhases = (
+				0BECF523AC184971090B1B20 /* [CP] Check Pods Manifest.lock */,
 				1834169C29AD38D30041D640 /* Sources */,
 				1834169D29AD38D30041D640 /* Frameworks */,
 				1834169E29AD38D30041D640 /* Resources */,
+				A40F6D276064AE46D9C8004F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +588,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183416D029AD38D60041D640 /* Build configuration list for PBXNativeTarget "NawadAppTests" */;
 			buildPhases = (
+				ECAD78922DBB34E6A9824092 /* [CP] Check Pods Manifest.lock */,
 				183416B529AD38D60041D640 /* Sources */,
 				183416B629AD38D60041D640 /* Frameworks */,
 				183416B729AD38D60041D640 /* Resources */,
@@ -172,9 +607,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183416D329AD38D60041D640 /* Build configuration list for PBXNativeTarget "NawadAppUITests" */;
 			buildPhases = (
+				5267CF7829D2700916C62B94 /* [CP] Check Pods Manifest.lock */,
 				183416BF29AD38D60041D640 /* Sources */,
 				183416C029AD38D60041D640 /* Frameworks */,
 				183416C129AD38D60041D640 /* Resources */,
+				7866AC9D0EAD73B62F77A182 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,7 +647,7 @@
 				};
 			};
 			buildConfigurationList = 1834169B29AD38D30041D640 /* Build configuration list for PBXProject "NawadApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -234,8 +671,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188E3A3229C2EF290099CC1B /* MyTextMessageTableViewCell.xib in Resources */,
+				18387F5329B9A0EE0010D38A /* ConversationCell.xib in Resources */,
+				1814D1A529B9B025008C4601 /* GroupedHotelsCell.xib in Resources */,
+				188E3A3329C2EF290099CC1B /* OtherGroupTextMessageTableViewCell.xib in Resources */,
+				188E3A3629C2EF290099CC1B /* GroupMembersCollectionViewCell.xib in Resources */,
+				18917F9929AE5BBF002F8C43 /* Poppins-SemiBold.ttf in Resources */,
 				183416B329AD38D50041D640 /* LaunchScreen.storyboard in Resources */,
+				183416DC29AD3BC80041D640 /* Poppins-Medium.ttf in Resources */,
+				188E3A3029C2EF290099CC1B /* OtherTextMessageTableViewCell.xib in Resources */,
+				18917F9B29AE5C48002F8C43 /* Poppins-Regular.ttf in Resources */,
+				1854705029B885E6007FBBD6 /* HotelPlaces.xib in Resources */,
 				183416B029AD38D50041D640 /* Assets.xcassets in Resources */,
+				188E3A2F29C2EF290099CC1B /* DayHeaderView.xib in Resources */,
+				1828EEFD29B38745004CC3AB /* Poppins-MediumItalic.ttf in Resources */,
+				18D23A7329BB687F00F18900 /* SheetHotels.storyboard in Resources */,
+				188E3A3429C2EF290099CC1B /* VisitedPlaceCollectionViewCell.xib in Resources */,
+				18DB289F29BB439200DAE0EC /* SettingCellTableView.xib in Resources */,
 				183416AB29AD38D30041D640 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,15 +708,175 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BECF523AC184971090B1B20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NawadApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5267CF7829D2700916C62B94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NawadApp-NawadAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7866AC9D0EAD73B62F77A182 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NawadApp-NawadAppUITests/Pods-NawadApp-NawadAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NawadApp-NawadAppUITests/Pods-NawadApp-NawadAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NawadApp-NawadAppUITests/Pods-NawadApp-NawadAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A40F6D276064AE46D9C8004F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NawadApp/Pods-NawadApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NawadApp/Pods-NawadApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NawadApp/Pods-NawadApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAD78922DBB34E6A9824092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NawadAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1834169C29AD38D30041D640 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182F686F29B48BFA00F1D6B1 /* PopularLocationCell.swift in Sources */,
+				18BB848C29B97A0F00978F3F /* GroupedVc.swift in Sources */,
+				18798B2A29AE4CF4003DF99D /* SignUpVc.swift in Sources */,
+				1863870929B9ED49003BDADD /* DetailsView.swift in Sources */,
+				188E3A3129C2EF290099CC1B /* MyTextMessageTableViewCell.swift in Sources */,
+				182F0B8F29B9E11E00867F15 /* NewSpotVc.swift in Sources */,
+				1871DAFD29B84C1000CD012E /* ButtenCells.swift in Sources */,
+				18BB848829B979D100978F3F /* PeopleViewController.swift in Sources */,
+				18D23A7529BB68B700F18900 /* SheetHotelsVc.swift in Sources */,
+				188E3A1B29C2EEF10099CC1B /* GroupChatViewController.swift in Sources */,
+				183416DE29AD493D0041D640 /* OTPVc.swift in Sources */,
+				188E3A3529C2EF290099CC1B /* VisitedPlaceCollectionViewCell.swift in Sources */,
+				1863870C29B9EE74003BDADD /* TagcollectionCell.swift in Sources */,
+				18DB28A629BB497A00DAE0EC /* VisitedPlacesCell.swift in Sources */,
+				187CB1DA29B7C647005AAC90 /* MapVc.swift in Sources */,
+				187CB1D829B7C636005AAC90 /* ListVc.swift in Sources */,
+				182F0B8D29B9DFDA00867F15 /* WhereView.swift in Sources */,
+				185C8E3D29BA35A7008D41DA /* RankView.swift in Sources */,
+				1854745B29B64D8800C6776E /* CostumTabBarController.swift in Sources */,
+				180BE7EB29BCF2B70022BAEC /* HotelsCollectionCellCollectionViewCell.swift in Sources */,
 				183416A829AD38D30041D640 /* ViewController.swift in Sources */,
+				1854704F29B885E6007FBBD6 /* HotelPlaces.swift in Sources */,
+				1863871129BA0C56003BDADD /* UploadPhotos.swift in Sources */,
+				187CB1D629B7C2A6005AAC90 /* WorkViewController.swift in Sources */,
+				188E4A5529AE62EB004FE862 /* LocalCounteriesVc.swift in Sources */,
+				180BE7ED29BCF63D0022BAEC /* SpaceInfo.swift in Sources */,
+				18C1A76E29BC821D004613FA /* PhoneNumberView.swift in Sources */,
+				18703A6229B500F800F27E0A /* HomeViewController.swift in Sources */,
 				183416AE29AD38D30041D640 /* NawadApp.xcdatamodeld in Sources */,
+				1814D1A429B9B025008C4601 /* GroupedHotelsCell.swift in Sources */,
+				18C1A76C29BC70E9004613FA /* HotelsDetailsVc.swift in Sources */,
+				180BE7E629BCD8410022BAEC /* PricesAndOffers.swift in Sources */,
+				18E14FD629C39FDE0087012E /* ViewPagerCostumview.swift in Sources */,
+				188E3A3729C2EF290099CC1B /* GroupMembersCollectionViewCell.swift in Sources */,
+				183416DA29AD3A6B0041D640 /* ForgotPasswordVc.swift in Sources */,
+				188E3A3929C2EF650099CC1B /* Extension.swift in Sources */,
+				1863870F29BA0BD9003BDADD /* UploadCollectionCell.swift in Sources */,
+				182D27D429BA514700037133 /* Internetspeed.swift in Sources */,
+				188E3A2D29C2EF290099CC1B /* OtherGroupTextMessageTableViewCell.swift in Sources */,
+				188E3A2C29C2EF290099CC1B /* OtherTextMessageTableViewCell.swift in Sources */,
+				185C8E3F29BA3BC6008D41DA /* OutletsView.swift in Sources */,
+				1863871329BA0DC9003BDADD /* dashlineView.swift in Sources */,
+				18917F9D29AE5D48002F8C43 /* OnboardingVc.swift in Sources */,
+				18DB28A129BB485700DAE0EC /* ProfileViewController.swift in Sources */,
+				18C1A77029BC8272004613FA /* HotelView.swift in Sources */,
+				18798B2829AE4637003DF99D /* PasswordVc.swift in Sources */,
 				183416A429AD38D30041D640 /* AppDelegate.swift in Sources */,
+				18BB848529B9059C00978F3F /* PlaceCardVc.swift in Sources */,
 				183416A629AD38D30041D640 /* SceneDelegate.swift in Sources */,
+				18D23A7829BB7A7200F18900 /* MapHotelPlaces.swift in Sources */,
+				182F687229B48C2500F1D6B1 /* NewLocationCell.swift in Sources */,
+				18BB848A29B979F900978F3F /* ConveresationsVc.swift in Sources */,
+				180BE7E429BCC6480022BAEC /* AverageSpeed.swift in Sources */,
+				188E3A1C29C2EEF10099CC1B /* SingleChatViewController.swift in Sources */,
+				18703A6029B5008800F27E0A /* StoriesCell.swift in Sources */,
+				188E3A3B29C2F0680099CC1B /* IntermediateViewController.swift in Sources */,
+				18387F5229B9A0EE0010D38A /* ConversationCell.swift in Sources */,
+				18C1A77229BC8A9E004613FA /* WorkingHours.swift in Sources */,
+				18DB289E29BB439200DAE0EC /* SettingCellTableView.swift in Sources */,
+				188E3A2E29C2EF290099CC1B /* DayHeaderView.swift in Sources */,
+				180BE7E829BCD8660022BAEC /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +1048,7 @@
 		};
 		183416CE29AD38D60041D640 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0198BF60DD3B4D13D6E64271 /* Pods-NawadApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +1077,7 @@
 		};
 		183416CF29AD38D60041D640 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F37EA2143F5C163D68AF0E /* Pods-NawadApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +1106,7 @@
 		};
 		183416D129AD38D60041D640 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B589F140436F132ACFB0B1FE /* Pods-NawadAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +1127,7 @@
 		};
 		183416D229AD38D60041D640 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B77DA4EF9CFDBD03BEB3D0 /* Pods-NawadAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +1148,7 @@
 		};
 		183416D429AD38D60041D640 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47895FF3508FC1F44BC8EC2F /* Pods-NawadApp-NawadAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +1167,7 @@
 		};
 		183416D529AD38D60041D640 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE00DC28EC544F7B97524D9A /* Pods-NawadApp-NawadAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
